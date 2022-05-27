@@ -1,0 +1,8 @@
+a=[1,2,3,4]
+sums=0 
+i=0
+for i in range(4):
+    sums+=a[i]
+    i+=1 
+
+print(f"Sum of elements of {a} = {sums}")
